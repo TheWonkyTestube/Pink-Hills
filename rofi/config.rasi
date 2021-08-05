@@ -1,0 +1,100 @@
+configuration {
+	modi: "window,drun";
+
+	width: 396;
+	lines: 18;
+	columns: 1;
+	location: 1;
+	padding: 5;
+	yoffset: 47;
+	xoffset: 27;
+  	line-margin: 2;
+  	line-padding: 15;
+  	hide-scrollbar: false;
+  	scrollbar-width: 10;
+	sidebar-mode: true;
+
+	font: "Cantarell 10";
+
+	show-icons: true;
+	display-drun: "Run ";
+  	display-run: "Run";
+  	display-window: "Windows";
+
+	terminal: "termite";
+
+	drun-match-fields: "name,generic,exec,categories,keywords";
+	drun-show-actions: false;
+	drun-display-format: "{icon} {name} | {generic}";
+	drun-url-launcher: "vivaldi-stable";
+
+	sort: true;
+	sorting-method: "normal";
+  	cycle: true;
+  	separator-style: "dash";
+  	max-history-size: 25;
+	
+	kb-mode-next: "Shift+Right,Control+Tab";
+  	kb-cancel: "Escape";
+}
+
+* {
+  bg: #b96e73;
+  fg: #0e0f21;
+  accent: #e58c4e;
+  button: #459cc7;
+  
+  background-color: @bg;
+  text-color: @fg;
+}
+
+window {
+  padding: 30px;
+  border-radius: 0px;
+  border:6px;
+  border-color:#272c38;
+}
+
+prompt, entry {
+  text-color: @fg;
+  padding: 8px;
+}
+
+
+entry {
+    border-radius : 0 4px 4px 0;
+    margin: 0 0 10px 0;
+}
+
+prompt {
+    background-color: @accent;
+    text-color: @fg;
+    border-radius: 4px 0 0 4px;
+    margin: 0 0 10px 0;
+}
+
+element {
+  border-radius: 2px;
+  padding: 6px 4px;
+}
+
+element selected {
+  background-color: @fg;
+  text-color: @bg;
+}
+
+button {
+    padding: 6px;
+    margin: 10px 0 0 0;
+}
+
+button selected {
+  background-color: @accent;
+  text-color: @fg;
+  border-radius: 2px;
+  padding: 4px;
+}
+element-icon {
+    size: 20px;
+    border: 0px;
+}
