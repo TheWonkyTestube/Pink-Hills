@@ -1,4 +1,4 @@
-New # Pink-Hills-Qtile-Config
+# Pink-Hills-Qtile-Config
 Config files for my Pink Hills Linux build
 
 ![Screenshot](https://github.com/TheWonkyTestube/Pink-Hills/blob/main/Pink%20Hills%20Final.png)
