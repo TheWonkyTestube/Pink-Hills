@@ -1,7 +1,7 @@
 New # Pink-Hills-Qtile-Config
 Config files for my Pink Hills Linux build
 
-![Screenshot](Pink Hills Final.png)
+![Screenshot](https://github.com/TheWonkyTestube/Pink-Hills/blob/main/Pink%20Hills%20Final.png)
 
 GTK themes are hard to upload, so I've left them out. The themes I have used are:
 
