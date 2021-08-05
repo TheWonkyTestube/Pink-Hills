@@ -1,7 +1,7 @@
 New # Pink-Hills-Qtile-Config
 Config files for my Pink Hills Linux build
 
-![Screenshot](https://github.com/TheWonkyTestube/Blue-Forest-Qtile-Config/blob/main/images/Blue%20Forest.png)
+![Screenshot](Pink Hills Final.png)
 
 GTK themes are hard to upload, so I've left them out. The themes I have used are:
 
